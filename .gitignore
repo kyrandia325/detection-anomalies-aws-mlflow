@@ -169,5 +169,11 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Ajout des fichiers .csv à ignorer
 data/raw/*.csv
 data/raw/creditcard.csv
+data/processed/*.csv
+
+# Ajout du fichier mlruns car trop volumineux.
+mlruns/
